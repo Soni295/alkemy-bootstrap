@@ -1,3 +1,31 @@
 body {
-  background: #333;
+  background: var(--bs-light);
+  color: var(--bs-dark);
+}
+#title {
+  height: 18.75rem;
+  background-color: var(--bs-cyan);
+}
+#sub-title {
+  height: 10.75rem;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+  #title {
+    height: 14.75rem;
+  }
+  #sub-title {
+    height: 8.75rem;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  #title {
+    height: 10.75rem;
+  }
+  #sub-title {
+    height: 5.75rem;
+  }
 }
