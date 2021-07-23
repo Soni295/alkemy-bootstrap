@@ -17,41 +17,40 @@
   </div>
 
   <!-- sub-title -->
-  <div id='sub-title' class='container-fluid d-flex align-items-center'>
-    <h2 class='text-center w-100'>Descripción de la categoria</h2>
+  <div id='sub-title' class='container-fluid d-flex align-items-center my-5'>
+    <div class="row  justify-content-center">
+      <div class="col-xs-12 col-sm-10 my-4">
+        <h3 class='text-center w-100'>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, in voluptatibus iste pariatur tenetur nemo at minima est tempore animi expedita ullam, veritatis perferendis! Tenetur porro consectetur odit obcaecati magni.
+          </h3>
+
+
+      </div>
+    </div>
   </div>
 
   <!-- main-list -->
   <div id='main-list' class='container-fluid'></div>
 
 
-<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-  Launch demo modal
-</button>
-
 <!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        ...
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
+  <div class="modal fade" id="question" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class=" modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Confirmar Compra</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div id='pregunta-producto' class="modal-body"></div>
+        <div class="modal-footer">
+          <a href='/compra.html' id='aceptar-compra' type="button" class="btn btn-primary">Si, Acepto</a>
+          <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cancelar</button>
+        </div>
       </div>
     </div>
   </div>
-</div>
-
-
 
   <script src='https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js' integrity='sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM' crossorigin='anonymous'></script>
   <script type='module' src='public/js/index.js'></script>
 </body>
-
 </html>

@@ -29,3 +29,8 @@ body {
     height: 5.75rem;
   }
 }
+
+.card-img {
+  object-fit: cover;
+  height: 16.1875rem;
+}

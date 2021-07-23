@@ -1,7 +1,7 @@
 const mainList = document.getElementById('main-list')
 import { Card } from './Card.js'
 import { create } from './create.js'
-import { example } from './example.js'
+import example from './example.js'
 
 const handleList = (products = example) => {
   let countCol = 0
