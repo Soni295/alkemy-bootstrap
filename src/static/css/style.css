@@ -3,15 +3,15 @@ body {
   color: var(--bs-dark);
 }
 #title {
-  height: 18.75rem;
-  background-color: var(--bs-cyan);
+  height: 30rem;
+  background-image: url(../img/alexander-rotker-l8p1aWZqHvE-unsplash.jpg);
+/*https://unsplash.com/photos/l8p1aWZqHvE?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink*/
+  background-size: 116%;
+  background-position: center;
 }
 #sub-title {
   height: 10.75rem;
 }
-
-
-
 @media only screen and (max-width: 768px) {
   #title {
     height: 14.75rem;
