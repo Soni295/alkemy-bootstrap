@@ -8,6 +8,7 @@ body {
 /*https://unsplash.com/photos/l8p1aWZqHvE?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink*/
   background-size: 116%;
   background-position: center;
+  color: var(--bs-light);
 }
 #sub-title {
   height: 10.75rem;
