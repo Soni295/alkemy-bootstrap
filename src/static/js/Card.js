@@ -1,10 +1,9 @@
 import { create } from './create.js'
 import { handleProduct } from './Modal.js'
 
-
 const BtnBuy = (title, price) => {
   const btnBuy = create('input', {
-    className: 'btn btn-primary btn-lg my-2 mx-3',
+    className: 'btn btn-success btn-lg my-2 mx-3',
     type: 'button',
     value: 'Comprar',
     onclick: () => handleProduct(title, price)

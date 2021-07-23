@@ -10,27 +10,16 @@ body {
   background-position: center;
   color: var(--bs-light);
 }
-#sub-title {
-  height: 10.75rem;
-}
 @media only screen and (max-width: 768px) {
   #title {
     height: 14.75rem;
   }
-  #sub-title {
-    height: 8.75rem;
-  }
 }
-
 @media only screen and (max-width: 576px) {
   #title {
     height: 10.75rem;
   }
-  #sub-title {
-    height: 5.75rem;
-  }
 }
-
 .card-img {
   object-fit: cover;
   height: 16.1875rem;
