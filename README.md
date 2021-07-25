@@ -27,10 +27,10 @@ Consigna:
   <img src='https://lh5.googleusercontent.com/agT8-6rOo4EdEGzs-Z2tsFEi-FsvCwPpNHrnm_csQ-nQE2nKVPrd16LldudttI0CPxnhvWOQfOHKsJLGQAx1ldLyjo5vn1qbDakSkflnsMPUJq-HdZULz8_MvoOebtbU6RUi4dxM' width="200">
 </div>
 
-
+----
 Para arrancar el proyecto
 
-```
+```sh
 $ git clone https://github.com/Soni295/alkemy-bootstrap.git
 $ cd alkemy-bootstrap
 $ npm start
